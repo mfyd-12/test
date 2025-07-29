@@ -1,10 +1,9 @@
-body{
-margin: 0;
-padding: 0;
+body , html{
+margin: 0 !important;
+padding: 0 !important; 
 }
-*{
-	margin: 0px;
-	padding: 0;
+main{
+	padding-top: 5rem; 
 }
 button {
 	border-radius: 5px;
@@ -92,6 +91,15 @@ nav {
 	    position: fixed;
     width: 100%;
     background: white;
+	padding: 2rem;
+	z-index: 1;
+}
+.nav-wrapper{
+	    display: flex
+;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
 }
 .asd:hover {
 	background-color: transparent;
