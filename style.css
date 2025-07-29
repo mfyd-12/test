@@ -1,7 +1,11 @@
 body{
-
+margin: 0;
+padding: 0;
 }
-
+*{
+	margin: 0px;
+	padding: 0;
+}
 button {
 	border-radius: 5px;
 	cursor: pointer;
@@ -85,6 +89,9 @@ ul {
 nav {
 	display: flex;
 	justify-content: space-between;
+	    position: fixed;
+    width: 100%;
+    background: white;
 }
 .asd:hover {
 	background-color: transparent;
@@ -779,4 +786,13 @@ font-size: small;
 .hzz{
 	width: 20px;
 	color: white;
+}
+#bot{
+	    background: #2f1c6a;
+    color: white;
+    padding: 2rem;
+    border-radius: 34rem;
+    position: fixed;
+    bottom: 25px;
+	right: 0px;
 }
