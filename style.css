@@ -75,6 +75,9 @@ ul {
 	color: gray;
 }
 .asd {
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
 	width: 90px;
 	height: 30px;
 	font-size: 16px;
@@ -803,4 +806,40 @@ font-size: small;
     position: fixed;
     bottom: 25px;
 	right: 0px;
+}
+
+.login{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	background-color: #f4f5ff;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px){
+	.bnm{
+		display: block
+	}
+	.content{
+		width: 100%;
+	}
+	.mfi img{
+		width: 100%;
+	}
+	.qq{
+		overflow: scroll;
+	}
+	.m1{
+		overflow: scroll;
+	}
+}
+
+@media screen and (max-width:  1024px){
+	.bnm{
+		display: block
+	}
+	.content{
+		width: 100%;
+	}
 }
