@@ -902,12 +902,47 @@ margin:3% 0%;
 justify-content: space-between;
 
 }
+.ban{
+	padding:0 3%;
+}
 .d-mnb{
 	width: 3%;
 }
 .papa{
 	    display: flex;
     justify-content: flex-end;
-    margin-left: 16%;
+    margin-left: 2%;
 	gap: 1%;
+}
+.asxz{
+	width: 5%;
+}
+#kkkkkk {
+    background-color: transparent;
+    border: 0px;
+    color: #5025d1;
+    font-size: 17px;
+}
+.boo{
+display: flex;
+
+}
+.boop{
+display: flex;
+gap: 2%;
+}
+#mnj{
+	width: 160px;
+}
+.boop p{
+	width: 105px;
+
+}
+.boop p:hover{
+	color: #673de6;
+}
+#qazb{
+	display: flex;
+    justify-content: space-between;
+    margin-top: 2%
 }
