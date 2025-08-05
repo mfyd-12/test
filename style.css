@@ -813,6 +813,9 @@ font-size: small;
 }
 
 @media screen and (max-width: 768px){
+	.m1{
+		    overflow-x: auto;
+	}
 	.bnm{
 		display: block
 	}
