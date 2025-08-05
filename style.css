@@ -156,10 +156,6 @@ nav {
 	border-radius: 5px;
 	cursor: pointer;
 } 
-.km {
-	width: 200px;
-	height: 90px;
-}
 .qq {
 	display: flex;
 	justify-content: space-around;
@@ -167,8 +163,7 @@ nav {
 	margin: 0px 100px;
 }
 #n {
-	width: 140px;
-	height: 40px;
+	width: 100%;
 }
 .h-svgo-ico {
 	width: 20px;
