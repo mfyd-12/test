@@ -1,13 +1,22 @@
 body , html{
 margin: 0 !important;
 padding: 0 !important; 
+direction: rtl;
 }
 main{
 	padding-top: 5rem; 
+	
 }
 button {
 	border-radius: 5px;
 	cursor: pointer;
+}
+.navs{
+	    display: flex;
+		flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 97%;
+
 }
 .bnm {
 	display: flex;
@@ -22,6 +31,7 @@ button {
 }
 .content {
 	width: 40%;
+	font-size: 35px;
 }
 #mfyd {
 	color: #673de6;
@@ -105,7 +115,7 @@ nav {
 	background-color: transparent;
 }
 .iconify {
-	hight: 33px;
+	height: 33px;
 	width: 57px;
 	justify-content: flex-start;
 }
@@ -160,12 +170,12 @@ nav {
 .qq {
 	display: flex;
 	justify-content: space-around;
-	gap: 40;
+	flex-direction: row-reverse;
 	margin: 0px 100px;
 }
 #n {
-	width: 140px;
-	height: 40px;
+	width: 136px;
+	height: 33px;
 }
 .h-svgo-ico {
 	width: 20px;
@@ -213,7 +223,7 @@ p {
 	display: flex;
 	justify-content: space-around;
 	padding: 0px 10px;
-	font-weight: semibold;
+flex-direction: row-reverse;
 }
 .l9 {
 	margin: 40px 0px 0px 0px;
@@ -252,6 +262,7 @@ p {
 #yty {
 	margin: 18px 0px;
 	color: gray;
+	width: 100%;
 }
 .mmm {
 	margin: 15px 0px;
@@ -420,6 +431,7 @@ p {
 	display: flex;
 	border-radius: 10px;
 	background-color: black;
+	flex-direction: row-reverse;
 }
 .ghj {
 	width: 50%;
@@ -468,6 +480,7 @@ p {
 	margin: 20px 0px;
 	position: relative;
 	width: 100%;
+	flex-direction: row-reverse;
 }
 .Clarification1 {
 	width: 100%;
@@ -567,9 +580,9 @@ p {
 }
 .sbc {
 	display: flex;
-	height: 900px;
 	justify-content: flex-end;
 	position: relative;
+	flex-direction: row-reverse;
 }
 .qaz {
 	width: 100%;
@@ -613,7 +626,7 @@ p {
 	text-align: center;
 	padding: 80px 150px;
 	direction: rtl;
-	margin: 150px 0px;
+	margin: 10px 0px;
 }
 .qqaa {
 	display: flex;
@@ -627,22 +640,25 @@ p {
 	direction: rtl;
 	font-weight: semibold;
 	color: #fff;
-	font-weight: bold;
 	font-size: 20px;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
+width: 50%;
+}
+.aazz h1{
+	    text-align: right;
+
 }
 .aazz p {
 	display: flex;
-	align-items: center;
 	gap: 0px;
-	font-size: 25px;
 	margin: 30px 0px;
+	    font-size: 15px;
+
 }
 .h-h {
 	color: #fff;
-	width: 60px;
+	width: 20px;
+    margin-bottom: 22px;
+
 }
 #oiu2 {
 	width: 300px;
@@ -658,22 +674,19 @@ p {
 #oiu2:hover {
 	background-color: #45209d;
 }
-.img {
+.imgmn {
 	width: 50%;
 }
-.img img {
+.img-img {
 	width: 100%;
 }
-.wsad{
-padding: 0px 223px;
 
-}
 .rtr{
   text-align: center;
-        font-size: 36px;
+  font-size: 36px;
 
 
-	}
+}
 .qwert{
  background-color: #f4f5ff;
 border: 1px solid#d5dfff;
@@ -726,6 +739,7 @@ fill: #5025d1;
 .ncvb{
 display: flex;	
 gap: 39px;
+justify-content: center;
 }
 .sds{
 	text-align: center;
@@ -803,4 +817,97 @@ font-size: small;
     position: fixed;
     bottom: 25px;
 	right: 0px;
+}
+.butt{
+    background: #2f1c6a;
+    color: white;
+    position: fixed;
+    bottom: 12px;
+    right: 15px;
+    padding: 1rem;
+    border-radius: 3rem !important;
+    width: 136px;
+}
+.h-icon{
+width: 20px;
+
+}
+.video{
+display: flex;
+width: 100%;
+margin:2% 0%;
+gap: 30px;
+}
+.iame{
+padding-top: 100px;
+}
+.iame svg{
+width: 25px;
+color: #673de6;
+background-color:#f4f5ff ;
+padding: 10px;
+border-radius: 10px;
+}
+.iame p{
+	width: 69%;
+	font-weight: 100;
+	font-size: 40px;
+	margin:40px 0px;
+}
+.spank{
+	color: #673de6;
+}
+#oigff {
+	width: 280px;
+	height: 20px;
+	background-color: transparent;
+	border: 0px;
+	color: #5025d1;
+	font-size: 24px;
+	display: flex;
+}
+.bigd{
+	display: flex;
+	align-items: center;
+	width: 73%;
+	justify-content: space-between;
+}
+.h-svgo-iconn{
+	border-radius: 50% !important;
+}
+.onh{
+margin:2% 10%;	   
+}
+.boxs3{
+	display: flex;
+    justify-content: space-around;
+}
+.box2{
+display: block;
+}
+.box2 h5{
+	font-weight: 600;
+    margin-bottom: 2%;
+}
+.box2 p{
+	margin-top: 10%;
+ width: 120px;
+}
+.box2 p:hover{
+	color: #673de6;
+}
+.dmo{
+display: flex;
+margin:3% 0%;
+justify-content: space-between;
+
+}
+.d-mnb{
+	width: 3%;
+}
+.papa{
+	    display: flex;
+    justify-content: flex-end;
+    margin-left: 16%;
+	gap: 1%;
 }
