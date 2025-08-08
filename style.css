@@ -85,6 +85,9 @@ ul {
 	color: gray;
 }
 .asd {
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
 	width: 90px;
 	height: 30px;
 	font-size: 16px;
@@ -163,10 +166,6 @@ nav {
 	border-radius: 5px;
 	cursor: pointer;
 } 
-.km {
-	width: 200px;
-	height: 90px;
-}
 .qq {
 	display: flex;
 	justify-content: space-around;
@@ -174,8 +173,8 @@ nav {
 	margin: 0px 100px;
 }
 #n {
-	width: 136px;
-	height: 33px;
+	width: 140px;
+	height: 40px;
 }
 .h-svgo-ico {
 	width: 20px;
@@ -817,132 +816,4 @@ font-size: small;
     position: fixed;
     bottom: 25px;
 	right: 0px;
-}
-.butt{
-    background: #2f1c6a;
-    color: white;
-    position: fixed;
-    bottom: 12px;
-    right: 15px;
-    padding: 1rem;
-    border-radius: 3rem !important;
-    width: 136px;
-}
-.h-icon{
-width: 20px;
-
-}
-.video{
-display: flex;
-width: 100%;
-margin:2% 0%;
-gap: 30px;
-}
-.iame{
-padding-top: 100px;
-}
-.iame svg{
-width: 25px;
-color: #673de6;
-background-color:#f4f5ff ;
-padding: 10px;
-border-radius: 10px;
-}
-.iame p{
-	width: 69%;
-	font-weight: 100;
-	font-size: 40px;
-	margin:40px 0px;
-}
-.spank{
-	color: #673de6;
-}
-#oigff {
-	width: 280px;
-	height: 20px;
-	background-color: transparent;
-	border: 0px;
-	color: #5025d1;
-	font-size: 24px;
-	display: flex;
-}
-.bigd{
-	display: flex;
-	align-items: center;
-	width: 73%;
-	justify-content: space-between;
-}
-.h-svgo-iconn{
-	border-radius: 50% !important;
-}
-.onh{
-margin:2% 10%;	   
-}
-.boxs3{
-	display: flex;
-    justify-content: space-around;
-}
-.box2{
-display: block;
-}
-.box2 h5{
-	font-weight: 600;
-    margin-bottom: 2%;
-}
-.box2 p{
-	margin-top: 10%;
- width: 120px;
-}
-.box2 p:hover{
-	color: #673de6;
-}
-.dmo{
-display: flex;
-margin:3% 0%;
-justify-content: space-between;
-
-}
-.ban{
-	padding:0 3%;
-}
-.d-mnb{
-	width: 3%;
-}
-.papa{
-	    display: flex;
-    justify-content: flex-end;
-    margin-left: 2%;
-	gap: 1%;
-}
-.asxz{
-	width: 5%;
-}
-#kkkkkk {
-    background-color: transparent;
-    border: 0px;
-    color: #5025d1;
-    font-size: 17px;
-}
-.boo{
-display: flex;
-
-}
-.boop{
-display: flex;
-gap: 2%;
-}
-#mnj{
-	width: 160px;
-}
-.boop p{
-	width: 105px;
-
-}
-.boop p:hover{
-	color: #673de6;
-}
-#qazb{
-	display: flex;
-    justify-content: space-between;
-    margin-top: 2%
 }
