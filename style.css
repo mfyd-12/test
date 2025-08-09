@@ -862,7 +862,7 @@ align-items:center;
     flex-direction: column;
     justify-content: center;
 }
-.h-svgo-icon{
+.h-svgo-iconv{
 	width: 5%;
     color: #673de6;
 	background-color: #e6e9f1;
@@ -878,7 +878,7 @@ border-radius: 14px;
 .pppp b{
 	color: #673de6;
 }
-.h-svgo-iconn{
+.h-svgo-icoxnnnn{
 	width: 6%;
 	background-color: #e6e9f1;
     border-radius: 50%;
@@ -957,6 +957,10 @@ display: block;
 	.m1{
 		overflow: scroll;
 	}
+	.video {
+    display: flex;
+    flex-direction: column-reverse;
+}
 }
 
 @media screen and (max-width:  1024px){
