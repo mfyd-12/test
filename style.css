@@ -909,7 +909,15 @@ border-radius: 14px;
     align-items: center;
     justify-content: space-between;
 }
-
+.ul li{
+cursor:pointer ;
+}
+.ul li:hover{
+	color: #673de6;
+}
+.onh{
+	display: none;
+}
 @media screen and (max-width: 768px){
 	.boop{
 		margin: 2% 0%;
@@ -941,7 +949,7 @@ border-radius: 14px;
 }
 	
 	.ul li{
-		margin-top: 9px;
+		margin: 9px 0px;
 	}
 	
 	.h-ert{
@@ -1045,4 +1053,8 @@ display: block;
 	.content{
 		width: 100%;
 	}
+}
+@media screen and (max-width:  1700px){
+
+
 }
