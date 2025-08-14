@@ -191,6 +191,7 @@ flex-direction: row-reverse;
 	width: 20px;
 	color: #00b090;
 }
+
 #nn {
 	align-items: center;
 	display: flex;
@@ -827,7 +828,6 @@ font-size: small;
 	display: flex;
 }
 .box2 p{
-color: ;
 	margin-top: 10px;
 }
 .box2 p:hover{
