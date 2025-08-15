@@ -1,14 +1,16 @@
-const btn = document.querySelector('#btn')
-const modal = document.querySelector(".modal")
-const body = document.body
-const close = document.querySelector("#close")
+const hio = document.querySelector('.hio')
+const ifta = document.querySelector(".ifta")
+const iframe = document.querySelector(".iframe")
+const video = document.querySelector(".video")
+const close = document.querySelector(".close")
 
-btn.addEventListener("click" , function(){
-    modal.style.display = "block"
-    body.style.backgroundColor= "#00000061"
+hio.addEventListener("click" , function(){
+ifta.style.display = "block"
+iframe.style.display = "block"
+video.style.backgroundColor= "#2c2c2cff"
 })
 
 close.addEventListener("click" , function(){
-    modal.style.display = "none"
-    body.style.backgroundColor= ""
+    ifta.style.display = "none"
+    video.style.backgroundColor= ""
 })
