@@ -1,0 +1,27 @@
+img{
+    width: 60%;
+}
+.qaqa{
+animation: ere 1.3s ease;
+border: 1px solid rgb(197, 197, 197);
+padding: 1rem; 
+width: 11rem;
+box-shadow: 5px 5px 10px gray;
+}
+button{
+padding: 6px;
+cursor:pointer ;
+border-radius: 18%;
+
+}
+h4{
+    max-width: 10rem;
+}
+button:hover{
+    background-color: rgb(75, 71, 71);
+    color: white;
+}
+@keyframes ere {
+	from{transform: translateX(100%);	}
+	to{transform: translateX(0);	}
+}
