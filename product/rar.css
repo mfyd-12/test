@@ -11,12 +11,12 @@ animation: ere 1.3s ease;
 border: 1px solid rgb(197, 197, 197);
 padding: 1rem; 
 box-shadow: 5px 5px 10px gray;
+    position: relative;
 }
-button{
+.add-to-cart{
 cursor:pointer ;
     border-radius: 20px;
     background: transparent;
-    border: 0.5px solid;
     padding: 5px 10px;
 
 }
@@ -28,10 +28,19 @@ cursor:pointer ;
     position: absolute;
     top: 0;
     left: 0;
+    background-color: transparent;
+    border-color: transparent;
 }
-#SVGRepo_bgCarrier{
-    fill: black;
+.km svg{
+  width: 25px;
+fill:none
 
+}
+.km svg:hover{
+      fill: black;
+}
+.liked svg{
+    fill: black;
 }
 .pp{
     font-weight: 100;
@@ -48,7 +57,7 @@ cursor:pointer ;
 h4{
     max-width: 10rem;
 }
-button:hover{
+.add-to-cart:hover{
     background-color: rgb(75, 71, 71);
     color: white;
 }
