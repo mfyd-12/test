@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <h4>${prod.title}</h4>
           <p>Price: $${prod.price}</p>
           <p class="pp">${prod.description}</p>
+<p>Rating: ${prod.rating.rate} ⭐ (${prod.rating.count} reviews)</p>
           <button class="add-to-cart">Add to Cart</button>
         </div>
         `
