@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const productsList = document.querySelector(".products");
-const imags= document.querySelector(".imags")
+  const imagesHTML = document.querySelector(".imags")
   // Using a free dummy API for fake products
   fetch("http://localhost:3000/products")
     .then(response => response.json())
@@ -42,20 +42,30 @@ const imags= document.querySelector(".imags")
     
     fetch("http://localhost:3000/imags")
     .then(response => response.json())
-    .then( resp => {
-      object.innerHTML = resp
-      .map(imags=>`
-<div class="carousel">
-<div class="slides">
-<h1>${title}</h1>
-<img class="bbnn" src=${imag}/>
+    .then((resp) => {
+      imagesHTML.innerHTML = resp.imags.map((img, index) => `
+          <div class="carousel">
+          <div class="slides">
+          <img id=${index} class="bbnn" src=${img}/>
+          </div>
+          </div>
+    `).join("")
+    
+  })
 
-</div>
-</div>
-`).join("")
-
-
-    })
-   
+  setInterval(() => {
+    const firstImage = document.getElementById("0");
+    const secondImage = document.getElementById("1");
+    
+    if(secondImage.style.display === ""){
+      secondImage.style.display = "none";
+      firstImage.style.display = "";
+    }else{
+      firstImage.style.display = "none";
+      secondImage.style.display = "";
+    }
+    
+  }, 3000);
+    
   });
     
