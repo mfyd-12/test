@@ -3,7 +3,14 @@ const cors=require("cors")
 
 const app=express()
 app.use(cors())
-
+const object = {
+"title": "صفحة المنتجات",
+"imags":[
+     "https://images.unsplash.com/photo-1504027973709-58986e840e79?q=80&w=2346&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" ,
+     "https://images.unsplash.com/photo-1550326897-59b13e651fcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" ,
+     "https://images.unsplash.com/photo-1550326897-59b13e651fcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+]
+}
 const arr=[1,2,3,4]
 const products=[
     {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}},
@@ -14,7 +21,9 @@ const products=[
 app.get("/products",(req,res)=>{
     res.send(products)
 })
-
+app.get("/imags",(req,res)=>{
+    res.send(eew)
+})
 app.get("/",(req,res)=>{
     res.send(arr)
 })

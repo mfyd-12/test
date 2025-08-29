@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const productsList = document.querySelector(".products");
-
+const imags= document.querySelector(".imags")
   // Using a free dummy API for fake products
   fetch("http://localhost:3000/products")
     .then(response => response.json())
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <h4>${prod.title}</h4>
           <p>Price: $${prod.price}</p>
           <p class="pp">${prod.description}</p>
-<p>Rating: ${prod.rating.rate} ⭐ (${prod.rating.count} reviews)</p>
+        <p>  Rating: ${"⭐".repeat(Math.round(prod.rating.rate))}(${prod.rating.count} reviews)  </p>
           <button class="add-to-cart">Add to Cart</button>
         </div>
         `
@@ -37,6 +37,25 @@ document.addEventListener("DOMContentLoaded", () => {
           });
         });
      
-    });
-    });
+    
+      });
+    
+    fetch("http://localhost:3000/imags")
+    .then(response => response.json())
+    .then( resp => {
+      object.innerHTML = resp
+      .map(imags=>`
+<div class="carousel">
+<div class="slides">
+<h1>${title}</h1>
+<img class="bbnn" src=${imag}/>
+
+</div>
+</div>
+`).join("")
+
+
+    })
+   
+  });
     
