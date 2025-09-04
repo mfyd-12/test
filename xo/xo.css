@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(42, 42, 114);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.ui{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+      height: 36rem;
+    width: 51%;
+    background-color: rgb(51, 87, 153);
+    gap: 5px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.call{
+    width: 100%;
+    background-color: darkslateblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.call:hover {
+background-color: rgb(105, 105, 105);
+}
