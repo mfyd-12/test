@@ -6,12 +6,15 @@ body{
 }
 .ui{
     display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 51%;
     background-color: rgb(51, 87, 153);
     gap: 5px;
     padding: 1rem;
     border-radius: 5px;
+}
+.bak{
+    background-color: brown;
 }
 .call{
     width: 100%;
