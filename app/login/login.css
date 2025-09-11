@@ -1,8 +1,19 @@
 body , html{
 margin: 0 !important;
 padding: 0 !important; 
+background-color: #f5f5ff;
+direction: rtl;
 }
-
+.buk{
+	background-color: #673ee5;
+}
+.br{
+	color: #673ee5;
+}
+.flex{
+	display: flex;
+	gap: 7px;
+}
 .login{
 	display: flex;
 	justify-content: center;
@@ -16,7 +27,8 @@ input{
 	border: 1px solid black;
 	border-radius: 5px;
 	padding: 10px;
-	margin: 10px;
+	width: 100%
+
 }
 input:focus{
 	border: 1px solid red;
@@ -29,4 +41,47 @@ input::placeholder{
 }
 input:hover{
 	border: 1px solid rgb(7, 207, 90);
+}
+.login-container{
+border:1px solid #d8dae0;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 2rem;
+background-color: white;
+height: 30rem;
+    width: 20rem;
+}
+form{
+	display: flex;
+flex-direction: column;
+margin-top: 1rem;
+    gap: 2rem;
+
+}
+.nm{
+	width: 2rem;
+}
+.mn{
+	border-radius: 5px;
+	width: 9rem;
+	padding: 5px;
+	
+}
+#bv{
+	background-color: #1977f1;
+}
+form div{
+	display: block !important;
+	width: 100%;
+}
+.hj{
+	width: 5rem;
+    border-bottom: 0.5px solid gray;
+}
+.df{
+	    align-items: center;
+		margin-top: 2rem;
+
 }

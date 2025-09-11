@@ -3,6 +3,7 @@ const cors=require("cors")
 
 const app=express()
 app.use(cors())
+
 const object = {
 "title": "صفحة المنتجات",
 "imags":[
@@ -22,7 +23,7 @@ app.get("/products",(req,res)=>{
     res.send(products)
 })
 app.get("/imags",(req,res)=>{
-    res.send(eew)
+    res.send(object)
 })
 app.get("/",(req,res)=>{
     res.send(arr)
