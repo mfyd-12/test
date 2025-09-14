@@ -6,6 +6,20 @@ direction: rtl;
 }
 .buk{
 	background-color: #673ee5;
+	width: 100%;
+	padding: 1rem;
+	color: #ffffff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+*{
+	font-size: 20px;
+}
+h1{
+	font-size: 39px;
+}
+.buk:hover{
+	background-color: #482d9b;
 }
 .br{
 	color: #673ee5;
@@ -27,7 +41,7 @@ input{
 	border: 1px solid black;
 	border-radius: 5px;
 	padding: 10px;
-	width: 100%
+	width: 93%
 
 }
 input:focus{
@@ -50,7 +64,7 @@ flex-direction: column;
 align-items: center;
 padding: 2rem;
 background-color: white;
-height: 30rem;
+height: 34rem;
     width: 20rem;
 }
 form{
@@ -77,11 +91,14 @@ form div{
 	width: 100%;
 }
 .hj{
-	width: 5rem;
+	width: 8rem;
     border-bottom: 0.5px solid gray;
 }
 .df{
 	    align-items: center;
 		margin-top: 2rem;
 
+}
+.kl{
+	width: 100%;
 }
