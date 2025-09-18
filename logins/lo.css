@@ -1,0 +1,148 @@
+body{
+display: flex;
+flex-direction: column;
+height: 100%;
+width: 100%;
+align-items: center;
+overflow: hidden;
+}
+p{
+    font-size: 14px;
+    font-weight: 100;
+}
+h1{
+    font-size: 35px;
+    margin: 0px;
+    font-weight: 200;
+    word-spacing: 2px;
+
+}
+.edc{
+    font-size: 18px;
+    margin: 15px;
+    color: gray;
+    word-spacing: 4px;
+    font-weight: 100;
+}
+.nm{
+	width: 2rem;
+    fill:gray;
+}
+.mn{
+	border-radius: 5px;
+	width: 9rem;
+	padding: 5px;
+	cursor: pointer;
+}
+.mn:hover{
+    background-color: rgb(170, 170, 170);
+}
+#or{
+display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 10px;
+  justify-content: center;
+}
+.we{
+    width: 46%;
+    border: 0.1px solid rgb(160, 159, 159);
+    width: 30%;
+}
+.df{
+  display: flex;
+  align-items: center;
+gap: 4rem;
+}
+.df p{
+    color: gray;
+}
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 69%;
+    padding: 10px;
+}
+.login-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flax{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+label{
+    font-size: 16px;
+    font-weight: 100;
+    margin: 8px 0px;
+}
+input{
+    border: 1px solid rgb(201, 199, 199);
+    border-radius:3px ;
+    padding: 5px;
+}
+input:focus{
+    outline: none;
+    border: 1px solid gray;
+}
+.wsx{
+    display: flex;
+    gap: 13px;
+} 
+#Email{
+    width: 96%;
+}
+.dfx{
+    border: 1px solid rgb(201, 199, 199);
+    display: flex;
+    align-items: center;
+    margin: 1rem 0px;
+    gap: 5px;
+    border-radius: 5px;
+}
+.bm{
+display: flex;
+flex-direction: column;
+}
+.nmm{
+    width: 10px;
+}
+.bt{
+background:transparent;
+border: none;
+cursor: pointer;
+}
+#in{
+    width: 96%;
+border: none;
+}
+#in:focus{
+    outline: none;
+}
+.km{
+    margin-top: 1rem;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:#3f4045;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.km:hover{
+    background-color: rgb(61, 55, 55);
+}
+#cv{
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 78%;
+    cursor: pointer;
+}

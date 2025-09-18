@@ -4,6 +4,7 @@ const cors=require("cors")
 const app=express()
 app.use(cors())
 
+app.use(express.json())
 const object = {
 "title": "صفحة المنتجات",
 "imags":[
@@ -28,7 +29,9 @@ app.get("/imags",(req,res)=>{
 app.get("/",(req,res)=>{
     res.send(arr)
 })
-
+app.post("/logn",(req,res)=>{
+    console.log(req.body)
+})
 const port=3000
 app.listen(port,()=>{
     console.log("server is running")

@@ -102,3 +102,13 @@ form div{
 .kl{
 	width: 100%;
 }
+#cv{
+	width: 25px;
+	position: absolute;
+	top: 38px;
+	left: 10px;
+	cursor: pointer;
+}
+#ewd{
+	position: relative;
+}
