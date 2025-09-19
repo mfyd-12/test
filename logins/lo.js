@@ -1,6 +1,6 @@
 const form = document.querySelector('form');
 const usernameInput = document.getElementById('user');
-const passwordInput = document.getElementById('pass');
+const passwordInput = document.getElementById('password');
 const Email = document.getElementById("Email");
 const cv = document.getElementById("cv");
 
