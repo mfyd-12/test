@@ -4,7 +4,22 @@ flex-direction: column;
 height: 100%;
 width: 100%;
 align-items: center;
-overflow: hidden;
+ background: #f4f6f9;
+ overflow-x: clip;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 75%;
+    border: #3f4045 solid 1px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(7, 7, 7, 0.5);
+}
+.x{
+  text-align: center;  
 }
 p{
     font-size: 14px;
@@ -33,9 +48,11 @@ h1{
 	width: 9rem;
 	padding: 5px;
 	cursor: pointer;
+    border: 1px solid gray;
+    background-color: white;
 }
 .mn:hover{
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(233, 229, 229);
 }
 #or{
 display: flex;
@@ -52,7 +69,7 @@ display: flex;
 .df{
   display: flex;
   align-items: center;
-gap: 4rem;
+  justify-content: space-between;
 }
 .df p{
     color: gray;
@@ -62,8 +79,9 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 69%;
+    width: 100%;
     padding: 10px;
+    
 }
 .login-container{
     width: 100%;
@@ -71,12 +89,10 @@ form{
     flex-direction: column;
     align-items: center;
 }
-.flax{
+.flaxn{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
+    gap: 10px;}
 label{
     font-size: 16px;
     font-weight: 100;
@@ -89,14 +105,26 @@ input{
 }
 input:focus{
     outline: none;
-    border: 1px solid gray;
+    border: 1px solid #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
+
 }
 .wsx{
     display: flex;
     gap: 13px;
+    width: 100%;
 } 
+.wsx div{
+    width: 100%;
+}
+#name1{
+    width: 95%;
+}
+#name{
+    width: 95%;
+}
 #Email{
-    width: 96%;
+    width: 97.8%;
 }
 .dfx{
     border: 1px solid rgb(201, 199, 199);
@@ -117,6 +145,7 @@ flex-direction: column;
 background:transparent;
 border: none;
 cursor: pointer;
+transform: rotate(-27deg);
 }
 #in{
     width: 96%;
@@ -131,7 +160,7 @@ border: none;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color:#3f4045;
+   background-color: #4CAF50;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -145,4 +174,12 @@ border: none;
     right: 20px;
     top: 78%;
     cursor: pointer;
+}
+.img{
+    width: 20px;
+}
+.yu{
+display: flex;
+width: 6rem;
+    gap: 12px;
 }

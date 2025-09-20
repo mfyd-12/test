@@ -32,6 +32,12 @@ app.get("/",(req,res)=>{
 app.post("/logn",(req,res)=>{
     console.log(req.body)
 })
+
+app.post("/sign",(req,res)=>{
+    console.log(req.body)
+    res.send(200)
+})
+
 const port=3000
 app.listen(port,()=>{
     console.log("server is running")
