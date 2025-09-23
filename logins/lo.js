@@ -7,7 +7,7 @@ const phone = document.getElementById("phone");
 const firstName = document.getElementById("firstName");
 const lastName = document.getElementById("lastName");
 const containr = document.querySelector(".container");
-
+const jk = document.querySelector(".jk");
 
 
 const cv = document.getElementById("cv");
@@ -44,7 +44,9 @@ fetch('http://localhost:3000/sign', {
   .then(response => {
     console.log(response.status);
     if (response.status === 200) {
-      containr.style.display = "none";}
+      containr.style.display = "none";
+      jk.style.display = "block";    
+    }
   })
 
 });
