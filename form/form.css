@@ -91,6 +91,9 @@ label{
     gap: 10px;
     margin-top: 10px;
 }
+.ran{
+    width: 100%;
+}
 input[type="checkbox"]{
     appearance: none;
 }
@@ -114,4 +117,8 @@ input[type="checkbox"]:checked::after {
     color: white;
     font-size: 20px;
     cursor: pointer;
+}
+input[type="range"]{
+      width: 100%;
+
 }
