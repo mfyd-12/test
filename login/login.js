@@ -19,8 +19,8 @@ addEventListener('submit', (event) => {
         body: JSON.stringify({ username, password,age }),
 
     })
-    // Here you can add your login logic, e.g., sending data to a server
 });
+
 cv.addEventListener("click",()=>{
     if(passwordInput.type==="password"){
         passwordInput.type="text" 
